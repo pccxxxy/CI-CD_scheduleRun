@@ -1,7 +1,7 @@
 import datetime 
 import logging
 import os
-import logging.handlers
+from logging.handlers import QueueHandler
 
 
 F = open(r'.\result\status.log', 'a')
@@ -12,7 +12,7 @@ F.write(f'{datetime.datetime.now()} - The script started running \n')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 logger_file_handler = logging.handlers.RotatingFileHandler(
-    ".\result\status1.log",
+    r".\result\status1.log",
     maxBytes=1024 * 1024,
     backupCount=1,
     encoding="utf8",
