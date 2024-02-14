@@ -12,7 +12,7 @@ F.write(f'{datetime.datetime.now()} - The script started running \n')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 logger_file_handler = logging.handlers.RotatingFileHandler(
-    "status1.log",
+    ".\result\status1.log",
     maxBytes=1024 * 1024,
     backupCount=1,
     encoding="utf8",
