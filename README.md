@@ -1,3 +1,7 @@
-# Aim: Automatically triggers a program to run on particualr time points
-# Tool used: GitHub Actions, YAML, Python
+# Aim: 
+### A CI/CD Pipeline template, automatically triggers program to run on scheduled time points
+
+
+# Tool used: 
+### GitHub Actions, YAML, Python
 
