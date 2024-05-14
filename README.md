@@ -1,5 +1,5 @@
 # Aim: 
-### A CI/CD pipeline template, automatically triggers program to run on scheduled time points
+### A CI/CD pipeline template automatically triggers a program to run at scheduled time points.
 
 
 # Tool used: 
