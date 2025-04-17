@@ -34,7 +34,7 @@ For example,
 ```
 in actions.yml.
 
-The way of adding hem into yml code is similar to how the below code is written.
+The way of adding them into YAML code is similar to how the below code is written.
 
 ```
      - name: execute py script # run anotherjob.py
